@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- TestFile01 -->
+<title>my REPLACE ME with repository name </title>
+<iframe src="./ipaddresses.html" width="100%" height="400" border="1"></iframe>
+</head>
+<body>
+<!-- TestFile01 -->
+<h1>Hello World from REPLACE ME with repository name </h1>
+<!-- ipaddresses paste next line -->
+<h4 id="id01">AAAA</h4>
+<h5 id="id02">AAAA</h5>
+<script>
+const date = new Date();
+const date1 = date.toLocaleString("en-uk", { 
+    hour12: true, 
+    weekday: "short", 
+    hour: "2-digit", 
+    minute: "2-digit", 
+    second: "2-digit", 
+    month: "2-digit", 
+    year: "numeric", 
+    day: "2-digit" 
+});
+document.getElementById("id01").innerHTML = "" + date1;
+document.getElementById("id02").innerHTML = "" + Date.now();
+</script>
+</body>
+</html>
